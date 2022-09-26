@@ -21,7 +21,94 @@ a {
     text-decoration: none;
 }
 
+.whitebutton  {
+    /* Dimensions & Position */
 
+    width: 50%;
+    height: 50px;
+
+    /* design */
+
+    background: #ffffff;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1px;
+
+    border-color: #aaaaaa;
+
+    /* text parameters */
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 90%;
+    color: #000000;
+}
+.whitebutton:hover {
+
+    background: #ffffff;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1px;
+
+    border-color: #aaaaaa;
+
+    /* text parameters */
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 90%;
+    color: #000000;
+    
+}
+
+.purplebutton  {
+    /* Dimensions & Position */
+
+    width: 50%;
+    height: 50px;
+
+    /* design */
+
+    background: #7F56D9;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1px;
+
+    border-color: #7F56D9;
+
+    /* text parameters */
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 90%;
+    color: #ffffff;
+}
+.purplebutton:hover {
+
+    background: #7F56D9;
+    mix-blend-mode: multiply;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1px;
+
+    border-color: #7F56D9;
+
+    /* text parameters */
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 90%;
+    color: #ffffff;
+    
+}
+    
 
 
 
@@ -184,23 +271,21 @@ a {
 
         /* text parameters */
 
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 100%;
+        color: #53389E;
+
 
 
     }
 
-    .button1 {
+    
+    .socialbutton:hover {
 
         font-family: "Roboto";
         font-weight: 500;
-        font-size: 120%;
-        color: #53389E;
-    }
-
-    .button1:hover {
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 120%;
+        font-size: 100%;
         color: #53389E;
     }
 
@@ -251,80 +336,6 @@ a {
         margin: 0 auto;
 
 
-    }
-
-    .teaserbutton {
-        /* Dimensions & Position */
-
-        width: 50%;
-        height: 50px;
-
-        /* design */
-
-        background: #ffffff;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 1px;
-
-        border-color: #aaaaaa;
-    }
-
-
-    .button2 {
-
-        /* text parameters */
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 110%;
-        color: #000000;
-    }
-
-    .button2:hover {
-
-        /* text parameters */
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 110%;
-        color: #000000;
-    }
-
-
-    .seancebutton {
-
-        /* Dimensions & Position */
-
-        width: 50%;
-        height: 50px;
-
-        /* design */
-
-        background: #7F56D9;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 0px;
-        border-color: #202020;
-
-    }
-
-    .button3 {
-
-        /* text parameters */
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 110%;
-        color: #ffffff;
-    }
-
-    .button3:hover {
-
-        /* text parameters */
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 110%;
-        color: #ffffff;
     }
 
     .Panelimg1 {
@@ -388,7 +399,7 @@ a {
 
     .paragraphe1{
         display: flex;
-        width: 800px;
+        width: auto;
         height: 200px;
         
         font-family: 'Roboto';
@@ -487,7 +498,7 @@ a {
         display: flex;
         align-content: center;
         
-        width: 100%;
+        width: 40vw;
         height: 100%;
         background-image: url(Sources/Panel2.jpg);
         background-repeat: no-repeat;

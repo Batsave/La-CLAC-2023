@@ -747,3 +747,411 @@ a {
 
     }
 }
+
+@media screen and (max-width: 767px ){
+
+    /* Navigation Bar Style */
+
+    .logo {
+        /*define the parameters of "logo"*/
+        width: 48px;
+        margin-left: 25px;
+        color: #eaeaea;
+    }
+
+    .navbar {
+        /* Navigation Bar */
+        display: flex;
+
+
+        align-items: center;
+        justify-content: space-between;
+        top: 0px;
+        height: 70px;
+
+
+        cursor: pointer;
+
+        position: fixed;
+        /* Set the navbar to fixed position */
+        top: 0;
+        /* Position the navbar at the bottom of the page */
+        width: 100%;
+        /* Full width */
+    }
+
+    .nav-list {
+        /* Dimension of the navigation list */
+
+        display: flex;
+    }
+
+    .nav-list li {
+        /* Style of navigation text */
+
+        list-style: none;
+        font-family: "Roboto";
+        font-size: 0.8em;
+        color: #202020;
+        padding: 26px 20px;
+        margin-right: 20px;
+    }
+
+    .nav-list li a {
+        /* Style of navigation text link */
+
+        text-decoration: none;
+        color: #202020;
+    }
+
+    .nav-list li a:hover {
+        /* Style of navigation text with selected */
+        color: #7F56D9;
+    }
+
+    .background {
+        /* Style of navigation bar */
+        background: rgba(250, 250, 250, 0.9);
+        background-blend-mode: darken;
+        background-size: cover;
+        backdrop-filter: blur(8px);
+
+    }
+
+
+    /* --- Footer  --- */
+
+    .footer {
+
+        display: flex;
+        flex-shrink: 0;
+        width: 100%;
+        height: 30px;
+        bottom: 0px;
+        padding-top: 10px;
+        justify-content: space-between;
+
+
+
+        background-color: #53389E;
+    }
+
+    .footercredits {
+
+        color: #eaeaea;
+        font-family: "Roboto light";
+
+        font-size: 80%;
+        margin-right: 10px;
+
+
+        text-decoration: none;
+
+
+
+    }
+
+    .footerlinks {
+
+        color: #eaeaea;
+        font-family: "Roboto Light";
+        padding: 0px 0px 0px 10px;
+        font-size: 80%;
+        text-decoration: none;
+
+
+    }
+
+
+    .whitebutton  {
+        /* Dimensions & Position */
+    
+        width: 50%;
+        height: 50px;
+    
+        /* design */
+    
+        background: #ffffff;
+        mix-blend-mode: multiply;
+        border-radius: 10px;
+        border-style: outset;
+        border-width: 1px;
+    
+        border-color: #aaaaaa;
+    
+        /* text parameters */
+        font-family: "Roboto";
+        text-align: center;
+        line-height: 50px;
+        font-weight: 400;
+        font-size: 60%;
+        color: #000000;
+    }
+    .whitebutton:hover {
+    
+        background: #ffffff;
+        mix-blend-mode: multiply;
+        border-radius: 10px;
+        border-style: outset;
+        border-width: 1px;
+    
+        border-color: #aaaaaa;
+    
+        /* text parameters */
+        font-family: "Roboto";
+        text-align: center;
+        line-height: 50px;
+        font-weight: 500;
+        font-size: 60%;
+        color: #000000;
+        
+    }
+    
+    .purplebutton  {
+        /* Dimensions & Position */
+    
+        width: 50%;
+        height: 50px;
+    
+        /* design */
+    
+        background: #7F56D9;
+        mix-blend-mode: multiply;
+        border-radius: 10px;
+        border-style: outset;
+        border-width: 1px;
+    
+        border-color: #7F56D9;
+    
+        /* text parameters */
+        font-family: "Roboto";
+        text-align: center;
+        line-height: 50px;
+        font-weight: 400;
+        font-size: 60%;
+        color: #ffffff;
+    }
+    .purplebutton:hover {
+    
+        background: #7F56D9;
+        mix-blend-mode: multiply;
+        border-radius: 10px;
+        border-style: outset;
+        border-width: 1px;
+    
+        border-color: #7F56D9;
+    
+        /* text parameters */
+        font-family: "Roboto";
+        text-align: center;
+        line-height: 50px;
+        font-weight: 500;
+        font-size: 60%;
+        color: #ffffff;
+        
+    }
+
+
+
+    /* --- Panel 1  --- */
+
+
+
+    #Panel1 {
+        /*define the parameters of "rectangle" */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 120px 0px 0px;
+        text-decoration: none;
+        background-color: #eeeeee;
+        background-image: linear-gradient(180deg, #eeeeee 0%, #DEDEDE 100%);
+    }
+
+    .socialbutton {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 4px 10px 4px 4px;
+        gap: 12px;
+
+        width: 30%;
+
+        /* Primary/50 */
+
+        background: #F9F5FF;
+        mix-blend-mode: multiply;
+        border-radius: 16px;
+        border-style: none;
+
+        /* text parameters */
+
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 60%;
+        color: #53389E;
+        text-align: center;
+
+
+
+    }
+
+    
+    .socialbutton:hover {
+
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 60%;
+        color: #53389E;
+    }
+
+    .hometext1 {
+        /*define the parameters of "hometext1" */
+
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 180%;
+        color: #202020;
+
+        text-align: center;
+
+
+    }
+
+    .hometext2 {
+        /*define the parameters of "hometext2" */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 80%;
+        color: #202020;
+        text-align: center;
+        padding-bottom: 50px;
+        width: 80%;
+    }
+
+
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+
+        width: 250px;
+        height: 30px;
+
+
+        /* Inside auto layout */
+
+        margin: 0 auto;
+
+
+    }
+
+    .Panelimg1 {
+
+        background-image: url(Sources/La_CLAC_Panel_Image_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        margin-top: 50px;
+        width: 90%;
+        height: 30vw;
+        background-size: cover;
+        border-radius: 25px 25px 0px 0px;
+        box-shadow: #000000 3px;
+    }
+
+
+
+/* --- Panel 2  --- */
+
+    #Panel2 {
+        
+        width: 90%;
+
+        
+        height: 500px;
+        display: flex;
+        flex-direction:column;
+
+        
+
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 100px;
+     
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        
+    }
+
+
+    .about {
+
+        display: flex;
+    
+        width: 90%;
+        font-family: 'Roboto';
+        font-weight: 200;
+        font-size: 50%;
+        
+        text-align: left;
+
+        color: #6941C6;
+    }
+
+    .text1 {
+        display: flex;
+        font-family: 'Roboto';
+        width: auto;
+
+        font-weight: 600;
+        font-size: 100;
+
+        color: #101828;
+    }
+
+    .paragraphe1{
+        display: flex;
+        width: 100%;
+        
+        
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 60%;
+        line-height: 15px;
+
+        color: #667085; 
+    }
+
+
+    .picturespanel{
+
+        display: flex;
+        align-content: center;
+        
+        width: 100%;
+        height: 100%;
+        background-image: url(Sources/Panel2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+
+    }
+}

@@ -1056,7 +1056,7 @@ a {
 .footercredits {
 
     color: #eaeaea;
-    font-family: "Roboto light";
+    font-family: "Roboto";
 
     font-size: 80%;
     
@@ -1077,7 +1077,7 @@ a {
 .footerlinks {
 
     color: #ffffff;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     padding: 0px 0px 0px 30px;
     font-size: 80%;
     text-decoration: none;
@@ -1087,7 +1087,7 @@ a {
 .footerlinksend {
 
     color: #ffffff;
-    font-family: "Roboto Light";
+    font-family: "Roboto";
     padding: 0px 0px 0px 0px;
     font-size: 80%;
     text-decoration: none;
@@ -1126,7 +1126,7 @@ a {
     .footercredits {
     
         color: #eaeaea;
-        font-family: "Roboto light";
+        font-family: "Roboto";
     
         font-size: 80%;
         align-content: center;

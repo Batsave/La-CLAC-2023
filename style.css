@@ -29,8 +29,8 @@ a {
 
     /* design */
 
-    background: #ffffff;
-    mix-blend-mode: multiply;
+    background: #fafafa;
+    
     border-radius: 10px;
     border-style: outset;
     border-width: 1px;
@@ -73,13 +73,13 @@ a {
 
     /* design */
 
-    background: #7F56D9;
-    mix-blend-mode: multiply;
+    background: #C1272D;
+    
     border-radius: 10px;
     border-style: outset;
     border-width: 1px;
 
-    border-color: #7F56D9;
+    border-color: #C1272D;
 
     /* text parameters */
     font-family: "Roboto";
@@ -91,14 +91,13 @@ a {
 }
 .purplebutton:hover {
 
-    background: #7F56D9;
-    mix-blend-mode: multiply;
+    background: #801a1d;
+    
     border-radius: 10px;
     border-style: outset;
     border-width: 1px;
 
-    border-color: #7F56D9;
-
+    border-color: #801a1d
     /* text parameters */
     font-family: "Roboto";
     text-align: center;
@@ -170,7 +169,7 @@ a {
 
     .nav-list li a:hover {
         /* Style of navigation text with selected */
-        color: #7F56D9;
+        color: #C1272D;
     }
 
     .background {
@@ -183,48 +182,7 @@ a {
     }
 
 
-    /* --- Footer  --- */
-
-    .footer {
-
-        display: flex;
-        flex-shrink: 0;
-        width: 100%;
-        height: 30px;
-        bottom: 0px;
-        padding-top: 10px;
-        justify-content: space-between;
-
-
-
-        background-color: #53389E;
-    }
-
-    .footercredits {
-
-        color: #eaeaea;
-        font-family: "Roboto light";
-
-        font-size: 80%;
-        margin-right: 10px;
-
-
-        text-decoration: none;
-
-
-
-    }
-
-    .footerlinks {
-
-        color: #eaeaea;
-        font-family: "Roboto Light";
-        padding: 0px 0px 0px 10px;
-        font-size: 80%;
-        text-decoration: none;
-
-
-    }
+    
 
 
 
@@ -274,7 +232,7 @@ a {
         font-family: "Roboto";
         font-weight: 300;
         font-size: 100%;
-        color: #53389E;
+        color: #C1272D;
 
 
 
@@ -286,7 +244,7 @@ a {
         font-family: "Roboto";
         font-weight: 500;
         font-size: 100%;
-        color: #53389E;
+        color: #C1272D;
     }
 
     .hometext1 {
@@ -346,7 +304,7 @@ a {
         
         margin-top: 50px;
         width: 80%;
-        height: vw;
+        height: 25vw;
         background-size: cover;
         border-radius: 25px 25px 0px 0px;
         box-shadow: #000000 3px;
@@ -386,7 +344,7 @@ a {
         
         text-align: left;
 
-        color: #6941C6;
+        color: #C1272D;
     }
 
     .text1 {
@@ -488,7 +446,7 @@ a {
 
     .nav-list li a:hover {
         /* Style of navigation text with selected */
-        color: #7F56D9;
+        color: #C1272D;
     }
 
     .background {
@@ -501,48 +459,7 @@ a {
     }
 
 
-    /* --- Footer  --- */
 
-    .footer {
-
-        display: flex;
-        flex-shrink: 0;
-        width: 100%;
-        height: 30px;
-        bottom: 0px;
-        padding-top: 10px;
-        justify-content: space-between;
-
-
-
-        background-color: #53389E;
-    }
-
-    .footercredits {
-
-        color: #eaeaea;
-        font-family: "Roboto light";
-
-        font-size: 80%;
-        margin-right: 10px;
-
-
-        text-decoration: none;
-
-
-
-    }
-
-    .footerlinks {
-
-        color: #eaeaea;
-        font-family: "Roboto Light";
-        padding: 0px 0px 0px 10px;
-        font-size: 80%;
-        text-decoration: none;
-
-
-    }
 
 
 
@@ -592,7 +509,7 @@ a {
         font-family: "Roboto";
         font-weight: 300;
         font-size: 100%;
-        color: #53389E;
+        color: #C1272D;
 
 
 
@@ -604,7 +521,7 @@ a {
         font-family: "Roboto";
         font-weight: 500;
         font-size: 100%;
-        color: #53389E;
+        color: #C1272D;
     }
 
     .hometext1 {
@@ -704,7 +621,7 @@ a {
         
         text-align: left;
 
-        color: #6941C6;
+        color: #C1272D;
     }
 
     .text1 {
@@ -806,7 +723,7 @@ a {
 
     .nav-list li a:hover {
         /* Style of navigation text with selected */
-        color: #7F56D9;
+        color: #C1272D;
     }
 
     .background {
@@ -819,49 +736,7 @@ a {
     }
 
 
-    /* --- Footer  --- */
-
-    .footer {
-
-        display: flex;
-        flex-shrink: 0;
-        width: 100%;
-        height: 30px;
-        bottom: 0px;
-        padding-top: 10px;
-        justify-content: space-between;
-
-
-
-        background-color: #53389E;
-    }
-
-    .footercredits {
-
-        color: #eaeaea;
-        font-family: "Roboto light";
-
-        font-size: 80%;
-        margin-right: 10px;
-
-
-        text-decoration: none;
-
-
-
-    }
-
-    .footerlinks {
-
-        color: #eaeaea;
-        font-family: "Roboto Light";
-        padding: 0px 0px 0px 10px;
-        font-size: 80%;
-        text-decoration: none;
-
-
-    }
-
+  
 
     .whitebutton  {
         /* Dimensions & Position */
@@ -915,13 +790,13 @@ a {
     
         /* design */
     
-        background: #7F56D9;
+        background: #C1272D;
         mix-blend-mode: multiply;
         border-radius: 10px;
         border-style: outset;
         border-width: 1px;
     
-        border-color: #7F56D9;
+        border-color: #C1272D;
     
         /* text parameters */
         font-family: "Roboto";
@@ -933,13 +808,13 @@ a {
     }
     .purplebutton:hover {
     
-        background: #7F56D9;
+        background: #C1272D;
         mix-blend-mode: multiply;
         border-radius: 10px;
         border-style: outset;
         border-width: 1px;
     
-        border-color: #7F56D9;
+        border-color: #C1272D;
     
         /* text parameters */
         font-family: "Roboto";
@@ -996,7 +871,7 @@ a {
         font-family: "Roboto";
         font-weight: 300;
         font-size: 60%;
-        color: #53389E;
+        color: #C1272D;
         text-align: center;
 
 
@@ -1009,7 +884,7 @@ a {
         font-family: "Roboto";
         font-weight: 500;
         font-size: 60%;
-        color: #53389E;
+        color: #C1272D;
     }
 
     .hometext1 {
@@ -1112,7 +987,7 @@ a {
         
         text-align: left;
 
-        color: #6941C6;
+        color: #C1272D;
     }
 
     .text1 {
@@ -1154,4 +1029,71 @@ a {
         border-radius: 20px;
 
     }
+}
+
+
+
+/* --- Footer  --- */
+
+.footer {
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+
+    flex-shrink: 0;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    padding-top: 10px;
+    
+    
+
+
+
+    background-color: #801a1d;
+}
+
+.footercredits {
+
+    color: #eaeaea;
+    font-family: "Roboto light";
+
+    font-size: 80%;
+    
+
+
+    text-decoration: none;
+    
+   
+}
+
+#linebar {
+
+    border-top: 1px solid white;
+    margin: 25px 50px 0px 50px;
+    line-height: 3;  
+}
+
+.footerlinks {
+
+    color: #ffffff;
+    font-family: "Roboto Light";
+    padding: 0px 0px 0px 30px;
+    font-size: 80%;
+    text-decoration: none;
+    
+    flex-grow: 1;
+}
+.footerlinksend {
+
+    color: #ffffff;
+    font-family: "Roboto Light";
+    padding: 0px 0px 0px 0px;
+    font-size: 80%;
+    text-decoration: none;
+    text-align: right;
+    align-items: left;
 }

@@ -852,7 +852,7 @@ a {
         padding: 4px 10px 4px 4px;
         gap: 12px;
 
-        width: 30%;
+        width: 80%;
 
         /* Primary/50 */
 
@@ -865,7 +865,7 @@ a {
 
         font-family: "Roboto";
         font-weight: 300;
-        font-size: 60%;
+        font-size: 100%;
         color: #C1272D;
         text-align: center;
 
@@ -878,7 +878,7 @@ a {
 
         font-family: "Roboto";
         font-weight: 500;
-        font-size: 60%;
+        font-size: 100%;
         color: #C1272D;
     }
 
@@ -887,7 +887,7 @@ a {
 
         font-family: "Roboto";
         font-weight: 500;
-        font-size: 180%;
+        font-size: 200%;
         color: #202020;
 
         text-align: center;
@@ -905,7 +905,7 @@ a {
 
         font-family: "Roboto";
         font-weight: 300;
-        font-size: 80%;
+        font-size: 100%;
         color: #202020;
         text-align: center;
         padding-bottom: 50px;
@@ -939,7 +939,7 @@ a {
         
         margin-top: 50px;
         width: 90%;
-        height: 30vw;
+        height: 40vw;
         background-size: cover;
         border-radius: 25px 25px 0px 0px;
         box-shadow: #000000 3px;
@@ -954,7 +954,7 @@ a {
         width: 90%;
 
         
-        height: 500px;
+        height: 700px;
         display: flex;
         flex-direction:column;
 
@@ -966,7 +966,7 @@ a {
      
         align-items: center;
         align-content: center;
-        justify-content: space-between;
+        
         
     }
 
@@ -978,7 +978,7 @@ a {
         width: 90%;
         font-family: 'Roboto';
         font-weight: 200;
-        font-size: 50%;
+        font-size: 80%;
         
         text-align: left;
 
@@ -989,9 +989,9 @@ a {
         display: flex;
         font-family: 'Roboto';
         width: auto;
-
+        
         font-weight: 600;
-        font-size: 100;
+        font-size: 120%;
 
         color: #101828;
     }
@@ -999,12 +999,12 @@ a {
     .paragraphe1{
         display: flex;
         width: 100%;
-        
+        text-align: left;
         
         font-family: 'Roboto';
         font-weight: 400;
-        font-size: 60%;
-        line-height: 15px;
+        font-size: 100%;
+        line-height: 25px;
 
         color: #667085; 
     }
@@ -1029,6 +1029,8 @@ a {
 
 
 /* --- Footer  --- */
+@media screen and (min-width: 768px){
+    
 
 .footer {
 
@@ -1092,3 +1094,80 @@ a {
     text-align: right;
     align-items: left;
 }
+}
+
+@media screen and (max-width: 767px){
+    
+
+    .footer {
+    
+        display: flex;
+        flex-direction: column-reverse;
+        
+        justify-content:center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        
+    
+        flex-shrink: 0;
+        width: 100%;
+        height: 100px;
+        bottom: 0px;
+        
+        
+        
+    
+    
+    
+        background-color: #801a1d;
+    }
+    
+    .footercredits {
+    
+        color: #eaeaea;
+        font-family: "Roboto light";
+    
+        font-size: 80%;
+        align-content: center;
+        
+    
+    
+        text-decoration: none;
+        
+       
+    }
+    
+    #linebar {
+    
+        border-top: 0px solid white;
+        margin: 0px 10px 0px 10px;
+        line-height: 3;  
+    }
+    
+    .footerlinks {
+    
+        color: #ffffff;
+        font-family: "Roboto";
+        padding: 0px 30px 0px 30px;
+        font-size: 110%;
+        
+        font-weight: 300;
+      
+     
+        
+       
+    }
+    .footerlinksend {
+    
+        color: #ffffff;
+        font-family: "Roboto";
+        font-weight: 300;
+        padding: 0px 0px 0px 0px;
+        font-size: 80%;
+        
+   
+        
+        
+    }
+    }

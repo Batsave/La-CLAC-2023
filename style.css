@@ -1,14 +1,9 @@
 @font-face {
     /* Load the Roboto Font */
     font-family: 'Roboto';
-    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+    src: url("font/");
 }
 
-@font-face {
-    /* Load the Roboto Font */
-    font-family: 'Roboto Light';
-    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-}
 
 body {
     /* Margin and Padding of the page */

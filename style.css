@@ -1,15 +1,46 @@
 @font-face {
     /* Load the Roboto Font */
-    font-family: 'Roboto';
+    font-family: 'RobotoRegular';
     src: url("font/Roboto-Regular.ttf");
+    font-weight: regular;
+
+
 }
 
+@font-face {
+    /* Load the Roboto Font */
+    font-family: 'RobotoBold';
+    src: url("font/Roboto-Bold.ttf");
+    font-weight: bold;
+
+
+}
+
+@font-face {
+    /* Load the Roboto Font */
+    font-family: 'RobotoLight';
+    src: url("font/Roboto-Light.ttf");
+    font-weight: light;
+
+
+}
+
+@font-face {
+    /* Load the Roboto Font */
+    font-family: 'RobotoThin';
+    src: url("font/Roboto-Thin.ttf");
+    font-weight: thin;
+
+
+}
+
+@import url('https://css.gg/play-button.css');
 
 body {
     /* Margin and Padding of the page */
     margin: 0;
     padding: 0;
-    background-color: #eeeeee;
+    background-color: #151515;
 }
 
 a {
@@ -20,7 +51,7 @@ a {
     /* Dimensions & Position */
 
     width: 50%;
-    height: 50px;
+    height: 55px;
 
     /* design */
 
@@ -28,44 +59,42 @@ a {
 
     border-radius: 10px;
     border-style: outset;
-    border-width: 1px;
+    border-width: 0px;
 
-    border-color: #aaaaaa;
+
 
     /* text parameters */
-    font-family: "Roboto";
+    font-family: "RobotoLight";
     text-align: center;
-    line-height: 50px;
+    line-height: 55px;
     font-weight: 400;
-    font-size: 80%;
+    font-size: 1em;
     color: #000000;
 }
 
 .whitebutton:hover {
 
-    background: #ffffff;
-    mix-blend-mode: multiply;
+    background: #dadada;
     border-radius: 10px;
     border-style: outset;
-    border-width: 1px;
+    border-width: 0px;
 
-    border-color: #aaaaaa;
 
     /* text parameters */
-    font-family: "Roboto";
+    font-family: "RobotoLight";
     text-align: center;
-    line-height: 50px;
+
     font-weight: 500;
-    font-size: 80%;
-    color: #000000;
+    font-size: 0.9em;
+    color: #202020;
 
 }
 
-.purplebutton {
+.redbutton {
     /* Dimensions & Position */
 
     width: 50%;
-    height: 50px;
+    height: 55px;
 
     /* design */
 
@@ -73,34 +102,30 @@ a {
 
     border-radius: 10px;
     border-style: outset;
-    border-width: 1px;
+    border-width: 0px;
 
     border-color: #C1272D;
 
     /* text parameters */
-    font-family: "Roboto";
+    font-family: "RobotoLight";
     text-align: center;
-    line-height: 50px;
+    line-height: 55px;
     font-weight: 400;
-    font-size: 90%;
+    font-size: 1em;
     color: #ffffff;
 }
 
-.purplebutton:hover {
+.redbutton:hover {
 
     background: #801a1d;
 
-    border-radius: 10px;
-    border-style: outset;
-    border-width: 1px;
-
     border-color: #801a1d;
     /* text parameters */
-    font-family: "Roboto";
+    font-family: "RobotoLight";
     text-align: center;
-    line-height: 50px;
+
     font-weight: 500;
-    font-size: 90%;
+    font-size: 0.9em;
     color: #ffffff;
 
 }
@@ -108,548 +133,10 @@ a {
 
 /**HOMEPAGE**/
 
-@media screen and (min-width: 1024px) {
 
-    /* Navigation Bar Style */
-    .header-main{
-        display: flex;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        /* Position the navbar at the bottom of the page */
-        width: 100%;
-        /* Full width */
-        background: rgba(250, 250, 250, 0.9);
-        background-blend-mode: darken;
-        background-size: cover;
-        backdrop-filter: blur(8px);
 
-    }
-    .logo {
-        /*define the parameters of "logo"*/
-        width: 48px;
-        margin-left: 25px;
-        color: #eaeaea;
-    }
-
-    .navbar {
-        /* Navigation Bar */
-        display: flex;
-
-
-        align-items: center;
-        justify-content: space-between;
-        height: 70px;
-
-
-        cursor: pointer;
-
-       
-    }
-
-    .nav-list {
-        /* Dimension of the navigation list */
-
-        display: flex;
-    }
-
-    .nav-list li {
-        /* Style of navigation text */
-
-        list-style: none;
-        font-family: "Roboto";
-        font-size: 0.9em;
-        color: #202020;
-        padding: 26px 20px;
-        margin-right: 20px;
-    }
-
-    .nav-list li a {
-        /* Style of navigation text link */
-
-        text-decoration: none;
-        color: #202020;
-    }
-
-    .nav-list li a:hover {
-        /* Style of navigation text with selected */
-        color: #C1272D;
-    }
-
-    
-
-
-
-
-
-
-
-    /* --- HomePage Panel 1  --- */
-
-
-
-    #Panel1 {
-        /*define the parameters of "rectangle" */
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding: 120px 0px 0px;
-        text-decoration: none;
-        background-color: #eeeeee;
-        background-image: linear-gradient(180deg, #eeeeee 0%, #DEDEDE 100%);
-    }
-
-    .socialbutton {
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 4px 10px 4px 4px;
-        gap: 12px;
-
-        width: 30%;
-
-        /* Primary/50 */
-
-        background: #F9F5FF;
-        mix-blend-mode: multiply;
-        border-radius: 16px;
-        border-style: none;
-
-        /* text parameters */
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 100%;
-        color: #C1272D;
-
-
-
-    }
-
-
-    .socialbutton:hover {
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 100%;
-        color: #C1272D;
-    }
-
-    .hometext1 {
-        /*define the parameters of "hometext1" */
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 360%;
-        color: #202020;
-
-        text-align: center;
-
-
-    }
-
-    .hometext2 {
-        /*define the parameters of "hometext2" */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 125%;
-        color: #202020;
-        text-align: center;
-        padding-bottom: 100px;
-        width: 90%;
-    }
-
-
-    .section2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 12px;
-
-        width: 408px;
-        height: 60px;
-
-
-        /* Inside auto layout */
-
-        margin: 0 auto;
-
-
-    }
-
-    .Panelimg1 {
-
-        background-image: url(Sources/La_CLAC_Panel_Image_1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-
-        margin-top: 50px;
-        width: 80%;
-        height: 25vw;
-        background-size: cover;
-        border-radius: 25px 25px 0px 0px;
-        box-shadow: #000000 3px;
-    }
-
-
-
-    /* --- HomePage Panel 2  --- */
-
-    #Panel2 {
-
-        width: 80%;
-
-        height: 500px;
-        display: flex;
-
-
-        margin: 0 auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
-
-        align-items: center;
-        align-content: center;
-        justify-content: space-between;
-
-    }
-
-
-    .about {
-
-        display: flex;
-
-        width: 80%;
-        font-family: 'Roboto';
-        font-weight: 200;
-        font-size: 100%;
-
-        text-align: left;
-
-        color: #C1272D;
-    }
-
-    .text1 {
-        display: flex;
-        font-family: 'Roboto';
-        width: 300px;
-
-        font-weight: 600;
-        font-size: 200%;
-
-        color: #101828;
-    }
-
-    .paragraphe1 {
-        display: flex;
-        width: 35vw;
-
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 120%;
-        line-height: 30px;
-
-        color: #667085;
-    }
-
-
-
-    .picturespanel {
-
-        display: flex;
-        align-content: center;
-
-        width: 60vw;
-        height: 100%;
-        background-image: url(Sources/Panel2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-
-    }
-
-
-    /**Legale **/
-
-
-    .paragraphepanel {
-        width: 80%;
-
-        width: 35vw;
-        display: flex;
-
-
-        margin: 0 auto;
-
-
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: justify;
-    }
-
-    .h4 {
-        display: flex;
-        font-family: 'Roboto';
-
-        margin-left: -20px;
-
-        font-weight: 400;
-        font-size: 125%;
-
-        color: #202020;
-    }
-
-    .paragraphe2 {
-        display: flex;
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 120%;
-        line-height: 30px;
-
-        color: #303030;
-    }
-
-
-
-
-
-    /**Pricing Page**/
-
-
-    .panel3 {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        padding: 100px 0px 100px;
-
-        width: 100%;
-        height: 80%;
-
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-
-    .pricing {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-
-        width: 100%;
-       
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-
-    .grid {
-
-        display: flex;
-        flex-wrap: wrap;
-
-        align-items: center;
-        align-content: center;
-
-
-        gap: 10px;
-
-        width: 80%;
-        height: auto;
-
-
-    }
-
-
-
-    .boxticket {
-
-        box-sizing: border-box;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        padding: 0px;
-
-
-        width: 30%;
-        height: auto;
-
-        background: #ffffff;
-        border: 1px solid #EAECF0;
-        box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 10px 10px -2px rgb(27, 27, 27, 0.1);
-        border-radius: 16px;
-
-        flex: none;
-        order: 0;
-        flex-grow: 1;
-    }
-
-    .date {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-
-        padding: 20px 0px 20px;
-        background-color: #C1272D;
-        border-radius: 16px 16px 0px 0px;
-        gap: 20px;
-
-        width: 100%;
-        height: auto;
-
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-
-    }
-
-    .pricepanel {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        padding: 2vw 0px 2vw;
-        gap: 24px;
-
-        width: 100%;
-        height: auto;
-
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-
-    }
-
-    .info {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        gap: 10px;
-
-        width: 90%;
-        height: 100%;
-
-
-    }
-
-    .price {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
-        gap: 10px;
-
-        width: 90%;
-        height: 100%;
-
-
-    }
-
-    .agebox {
-
-
-        width: 50%;
-        height: 7vw;
-
-        background-color: #e0e0e0;
-        border-radius: 8px;
-
-
-        text-align: center;
-        align-content: center;
-
-    }
-
-    .pricetext {
-
-        font-family: 'Roboto';
-        text-align: center;
-        align-content: center;
-        font-weight: 400;
-        font-size: 1vw;
-        line-height: 3.5vw;
-
-        color: #202020;
-
-    }
-
-    .content {
-
-        text-align: center;
-        align-content: center;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 2vw;
-
-
-        color: #202020;
-
-    }
-
-    .buttonzone {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0px 20px;
-        gap: 24px;
-
-        width: auto;
-        height: auto;
-
-        flex: none;
-        order: 2;
-        align-self: stretch;
-        flex-grow: 0;
-    }
-
-    .paragraphe3 {
-        display: flex;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 1vw;
-
-
-        color: #ffffff;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-   /* Navigation Bar Style */
-   .header-main{
+/* Navigation Bar Style */
+.header-main {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -657,12 +144,13 @@ a {
     /* Position the navbar at the bottom of the page */
     width: 100%;
     /* Full width */
-    background: rgba(250, 250, 250, 0.9);
+    background: rgba(32, 32, 32, 0.9);
     background-blend-mode: darken;
     background-size: cover;
     backdrop-filter: blur(8px);
 
 }
+
 .logo {
     /*define the parameters of "logo"*/
     width: 48px;
@@ -682,1268 +170,608 @@ a {
 
     cursor: pointer;
 
-   
+
 }
 
-    .nav-list {
-        /* Dimension of the navigation list */
+.nav-list {
+    /* Dimension of the navigation list */
 
-        display: flex;
-    }
+    display: flex;
+}
 
-    .nav-list li {
-        /* Style of navigation text */
+.nav-list li {
+    /* Style of navigation text */
 
-        list-style: none;
-        font-family: "Roboto";
-        font-size: 0.9em;
-        color: #202020;
-        padding: 26px 20px;
-        margin-right: 20px;
-    }
+    list-style: none;
+    font-family: "RobotoLight";
+    font-size: 1em;
+    color: #eaeaea;
+    padding: 26px 20px;
+    margin-right: 20px;
+}
 
-    .nav-list li a {
-        /* Style of navigation text link */
+.nav-list li a {
+    /* Style of navigation text link */
 
-        text-decoration: none;
-        color: #202020;
-    }
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: 200;
+}
 
-    .nav-list li a:hover {
-        /* Style of navigation text with selected */
-        color: #C1272D;
-    }
+.nav-list li a:hover {
+    /* Style of navigation text with selected */
+    color: #aaaaaa;
+    font-weight: 400;
+}
 
+.LoginButton {
 
+    /* Dimensions & Position */
 
+    width: 110px;
+    height: 40px;
+    margin-right: 50px;
 
+    /* design */
 
+    background: #C1272D;
 
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 0px;
 
+    border-color: #C1272D;
 
+    /* text parameters */
+    font-family: "RobotoLight";
+    text-align: center;
 
+    line-height: 40px;
 
+    font-size: 90%;
+    color: #ffffff;
 
-    /* --- Panel 1  --- */
 
+}
 
+.LoginButton:hover {
 
-    #Panel1 {
-        /*define the parameters of "rectangle" */
+    background: #801a1d;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding: 120px 0px 0px;
-        text-decoration: none;
-        background-color: #eeeeee;
-        background-image: linear-gradient(180deg, #eeeeee 0%, #DEDEDE 100%);
-    }
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 0px;
 
-    .socialbutton {
-        /* Auto layout */
+    border-color: #801a1d;
+    /* text parameters */
+    font-family: "RobotoLight";
+    color: #ffffff;
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 4px 10px 4px 4px;
-        gap: 12px;
+}
 
-        width: 30%;
 
-        /* Primary/50 */
 
-        background: #F9F5FF;
-        mix-blend-mode: multiply;
-        border-radius: 16px;
-        border-style: none;
 
-        /* text parameters */
 
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 100%;
-        color: #C1272D;
 
 
+/* --- HomePage Panel 1  --- */
 
-    }
 
 
-    .socialbutton:hover {
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 100%;
-        color: #C1272D;
-    }
-
-    .hometext1 {
-        /*define the parameters of "hometext1" */
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 320%;
-        color: #202020;
-
-        text-align: center;
-
-
-    }
-
-    .hometext2 {
-        /*define the parameters of "hometext2" */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 125%;
-        color: #202020;
-        text-align: center;
-        padding-bottom: 100px;
-        width: 90%;
-    }
-
-
-    .section2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 12px;
-
-        width: 408px;
-        height: 60px;
-
-
-        /* Inside auto layout */
-
-        margin: 0 auto;
-
-
-    }
-
-    .Panelimg1 {
-
-        background-image: url(Sources/La_CLAC_Panel_Image_1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-
-        margin-top: 50px;
-        width: 80%;
-        height: 30vw;
-        background-size: cover;
-        border-radius: 25px 25px 0px 0px;
-        box-shadow: #000000 3px;
-    }
-
-
-
-    /* --- Panel 2  --- */
-
-    #Panel2 {
-
-        width: 80%;
-
-        height: 500px;
-        display: flex;
-
-
-        margin: 0 auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
-
-        align-items: center;
-        align-content: center;
-        justify-content: space-between;
-
-    }
-
-
-    .about {
-
-        display: flex;
-
-        width: 80%;
-        font-family: 'Roboto';
-        font-weight: 200;
-        font-size: 100%;
-
-        text-align: left;
-
-        color: #C1272D;
-    }
-
-    .text1 {
-        display: flex;
-        font-family: 'Roboto';
-        width: 300px;
-
-        font-weight: 600;
-        font-size: 200%;
-
-        color: #101828;
-    }
-
-    .paragraphe1 {
-        display: flex;
-        width: 35vw;
-
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 120%;
-        line-height: 30px;
-
-        color: #667085;
-    }
-
-
-    .picturespanel {
-
-        display: flex;
-        align-content: center;
-
-        width: 60vw;
-        height: 100%;
-        background-image: url(Sources/Panel2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-
-    }
-
-
-    /**Legale **/
-
-
-    .paragraphepanel {
-        width: 80%;
-
-        width: 52vw;
-        display: flex;
-        margin: 0 auto;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: justify;
-    }
-
-    .h4 {
-        display: flex;
-        font-family: 'Roboto';
-
-        margin-left: -20px;
-
-        font-weight: 400;
-        font-size: 125%;
-
-        color: #202020;
-    }
-
-    .paragraphe2 {
-        display: flex;
-
-
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 120%;
-        line-height: 30px;
-
-        color: #303030;
-    }
-/**Pricing Page**/
-
-
-.panel3 {
+#Panel1 {
+    /*define the parameters of "rectangle" */
 
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    padding: 100px 0px 100px;
-
-    width: 100%;
-    height: 80%;
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.pricing {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    justify-content: center;
+    padding: 18em 0px 0px;
+    text-decoration: none;
+    background-color: rgba(32, 32, 32, 0.9);
+    padding-bottom: 25%;
 
 
-    width: 100%;
-   
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.grid {
-
-    display: flex;
-    flex-wrap: wrap;
-
-    align-items: center;
-    align-content: center;
 
 
-    gap: 10px;
-
-    width: 80%;
-    height: auto;
 
 
 }
 
-
-
-.boxticket {
-
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-
-    padding: 0px;
-
-
-    width: 40%;
-    height: auto;
-
-    background: #ffffff;
-    border: 1px solid #EAECF0;
-    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 10px 10px -2px rgb(27, 27, 27, 0.1);
-    border-radius: 16px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-}
-
-.date {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-
-    padding: 20px 0px 20px;
-    background-color: #C1272D;
-    border-radius: 16px 16px 0px 0px;
-    gap: 20px;
-
-    width: 100%;
-    height: auto;
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-
-}
-
-.pricepanel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    padding: 2vw 0px 2vw;
-    gap: 24px;
-
-    width: 100%;
-    height: auto;
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-}
-
-.info {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-
-    width: 90%;
+#background-video {
     height: 100%;
-
-
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
-.price {
-    box-sizing: border-box;
+.socialbutton {
+    /* Auto layout */
+
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 10px 5px 5px;
+    gap: 12em;
 
+    width: 15em;
+
+    /* Primary/50 */
+
+    background: #eaeaea;
+
+    border-radius: 16px;
+    border-style: none;
+
+    /* text parameters */
+
+    font-family: "RobotoRegular";
+    font-weight: 300;
+    font-size: 1em;
+    color: #C1272D;
+
+
+
+}
+
+
+.socialbutton:hover {
+    background: #cccccc;
+    color: #801a1d;
+}
+
+.hometext1 {
+    /*define the parameters of "hometext1" */
+
+    font-family: "RobotoBold";
+    font-size: 5em;
+    color: #eaeaea;
+    text-align: center;
+    line-height: 0;
+}
+
+.hometext2 {
+    /*define the parameters of "hometext2" */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    font-family: "RobotoThin";
+    font-size: 1.2em;
+    color: #aaaaaa;
+    text-align: center;
+    padding-bottom: 10%;
     width: 90%;
-    height: 100%;
+}
 
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 25em;
+    margin: 0 auto;
 
 }
 
-.agebox {
 
 
-    width: 50%;
-    height: 7vw;
-
-    background-color: #e0e0e0;
-    border-radius: 8px;
 
 
-    text-align: center;
+
+/* --- HomePage Panel 2  --- */
+
+#Panel2 {
+
+    width: 100%;
+    background-color: #151515;
+}
+
+
+#section3 {
+
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+
+    margin: 0 auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    align-items: center;
     align-content: center;
-
-}
-
-.pricetext {
-
-    font-family: 'Roboto';
     text-align: center;
-    align-content: center;
-    font-weight: 400;
-    font-size: 2vw;
-    line-height: 3vw;
 
-    color: #202020;
 
 }
 
-.content {
 
-    text-align: center;
-    align-content: center;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 3vw;
-
-
-    color: #202020;
-
-}
-
-.buttonzone {
+.about {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px 0px 20px;
-    gap: 24px;
 
+
+    font-family: 'RobotoRegular';
+    font-size: 1em;
+
+    text-align: center;
+
+    color: #C1272D;
+}
+
+.title1 {
+    display: flex;
+    flex-direction: column;
     width: auto;
-    height: auto;
 
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-}
+    font-family: 'RobotoBold';
+    font-size: 2em;
 
-.paragraphe3 {
-    display: flex;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 15px;
-
-
-    color: #ffffff;
-}
-
-
-}
-
-
-@media screen and (max-width: 768px) {
-
-   /* Navigation Bar Style */
-   .header-main{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    /* Position the navbar at the bottom of the page */
-    width: 100%;
-    /* Full width */
-    background: rgba(250, 250, 250, 0.9);
-    background-blend-mode: darken;
-    background-size: cover;
-    backdrop-filter: blur(8px);
-
-}
-.logo {
-    /*define the parameters of "logo"*/
-    width: 48px;
-    margin-left: 25px;
     color: #eaeaea;
 }
 
-.navbar {
-    /* Navigation Bar */
+.paragraphe1 {
     display: flex;
+    flex-direction: column;
+    height: 12em;
 
+    font-family: 'RobotoLight';
+    font-size: 1.1em;
+    line-height: 1.5em;
 
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-
-
-    cursor: pointer;
-
-   
+    color: #eaeaea;
 }
 
-    .nav-list {
-        /* Dimension of the navigation list */
 
-        display: flex;
-    }
-
-    .nav-list li {
-        /* Style of navigation text */
-
-        list-style: none;
-        font-family: "Roboto";
-        font-size: 0.8em;
-        color: #202020;
-        padding: 26px 20px;
-        margin-right: 20px;
-    }
-
-    .nav-list li a {
-        /* Style of navigation text link */
-
-        text-decoration: none;
-        color: #202020;
-    }
-
-    .nav-list li a:hover {
-        /* Style of navigation text with selected */
-        color: #C1272D;
-    }
-
-
-
-
-
-
-    .whitebutton {
-        /* Dimensions & Position */
-
-        width: 60%;
-        height: 50px;
-
-        /* design */
-
-        background: #ffffff;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 1px;
-
-        border-color: #aaaaaa;
-
-        /* text parameters */
-        font-family: "Roboto";
-        text-align: center;
-        line-height: 50px;
-        font-weight: 400;
-        font-size: 80%;
-        color: #000000;
-    }
-
-    .whitebutton:hover {
-
-        background: #ffffff;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 1px;
-
-        border-color: #aaaaaa;
-
-        /* text parameters */
-        font-family: "Roboto";
-        text-align: center;
-        line-height: 50px;
-        font-weight: 500;
-        font-size: 80%;
-        color: #000000;
-
-    }
-
-    .purplebutton {
-        /* Dimensions & Position */
-
-        width: 50%;
-        height: 50px;
-
-        /* design */
-
-        background: #C1272D;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 1px;
-
-        border-color: #C1272D;
-
-        /* text parameters */
-        font-family: "Roboto";
-        text-align: center;
-        line-height: 50px;
-        font-weight: 400;
-        font-size: 80%;
-        color: #ffffff;
-    }
-
-    .purplebutton:hover {
-
-        background: #C1272D;
-        mix-blend-mode: multiply;
-        border-radius: 10px;
-        border-style: outset;
-        border-width: 1px;
-
-        border-color: #C1272D;
-
-        /* text parameters */
-        font-family: "Roboto";
-        text-align: center;
-        line-height: 50px;
-        font-weight: 500;
-        font-size: 80%;
-        color: #ffffff;
-
-    }
-
-
-
-    /* --- Panel 1  --- */
-
-
-
-    #Panel1 {
-        /*define the parameters of "rectangle" */
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding: 120px 0px 0px;
-        text-decoration: none;
-        background-color: #eeeeee;
-        background-image: linear-gradient(180deg, #eeeeee 0%, #DEDEDE 100%);
-    }
-
-    .socialbutton {
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 4px 10px 4px 4px;
-        gap: 12px;
-
-        width: 80%;
-
-        /* Primary/50 */
-
-        background: #F9F5FF;
-        mix-blend-mode: multiply;
-        border-radius: 16px;
-        border-style: none;
-
-        /* text parameters */
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 100%;
-        color: #C1272D;
-        text-align: center;
-
-
-
-    }
-
-
-    .socialbutton:hover {
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 100%;
-        color: #C1272D;
-    }
-
-    .hometext1 {
-        /*define the parameters of "hometext1" */
-
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 200%;
-        color: #202020;
-
-        text-align: center;
-
-
-    }
-
-    .hometext2 {
-        /*define the parameters of "hometext2" */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-
-        font-family: "Roboto";
-        font-weight: 300;
-        font-size: 100%;
-        color: #202020;
-        text-align: center;
-        padding-bottom: 50px;
-        width: 80%;
-    }
-
-
-    .section2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 12px;
-
-        width: 90%;
-        height: 30px;
-
-
-        /* Inside auto layout */
-
-        margin: 0 auto;
-
-
-    }
-
-    .Panelimg1 {
-
-        background-image: url(Sources/La_CLAC_Panel_Image_1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-
-        margin-top: 50px;
-        width: 90%;
-        height: 40vw;
-        background-size: cover;
-        border-radius: 25px 25px 0px 0px;
-        box-shadow: #000000 3px;
-    }
-
-
-
-    /* --- Panel 2  --- */
-
-    #Panel2 {
-
-        width: 90%;
-
-
-        height: 700px;
-        display: flex;
-        flex-direction: column;
-
-
-
-        margin: 0 auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
-
-        align-items: center;
-        align-content: center;
-
-
-    }
-
-
-    .about {
-
-        display: flex;
-
-        width: 90%;
-        font-family: 'Roboto';
-        font-weight: 200;
-        font-size: 80%;
-
-        text-align: left;
-
-        color: #C1272D;
-    }
-
-    .text1 {
-        display: flex;
-        font-family: 'Roboto';
-        width: auto;
-
-        font-weight: 600;
-        font-size: 120%;
-
-        color: #101828;
-    }
-
-    .paragraphe1 {
-        display: flex;
-        width: 100%;
-        text-align: left;
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 100%;
-        line-height: 25px;
-
-        color: #667085;
-    }
-
-
-    .picturespanel {
-
-        display: flex;
-        align-content: center;
-
-        width: 100%;
-        height: 100%;
-        background-image: url(Sources/Panel2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-
-    }
-
-    /**Legale **/
-
-
-    .paragraphepanel {
-        width: 80%;
-
-        height: 100%;
-        display: flex;
-
-
-        margin: 0 auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
-
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        text-align: left;
-
-
-
-    }
-
-    .h4 {
-        display: flex;
-        font-family: 'Roboto';
-        width: auto;
-        margin-left: -20px;
-
-        font-weight: 300;
-        font-size: 125%;
-
-        color: #202020;
-    }
-
-    .paragraphe2 {
-        display: flex;
-        width: auto;
-
-
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 100%;
-        line-height: 30px;
-
-        color: #303030;
-    }
-
-
-    /**Pricing Page**/
-
-
-.panel3 {
-
+#section4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    padding: 100px 0px 100px;
-
-    width: 100%;
-    height: 80%;
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.pricing {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-
-
-    width: 100%;
-   
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.grid {
-
-    display: flex;
-    flex-wrap: wrap;
-
-    align-items: center;
-    align-content: center;
-
-
-    gap: 10px;
-
-    width: 80%;
     height: auto;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+
 
 
 }
 
-
-
-.boxticket {
-
-    box-sizing: border-box;
+.gridrow {
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-
+    flex-direction: row;
     padding: 0px;
+    margin-bottom: 30px;
+    gap: 32px;
 
-
-    width: 50%;
-    height: auto;
-
-    background: #ffffff;
-    border: 1px solid #EAECF0;
-    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 10px 10px -2px rgb(27, 27, 27, 0.1);
-    border-radius: 16px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
 }
 
-.date {
+#arg {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-
-    padding: 20px 0px 20px;
-    background-color: #C1272D;
-    border-radius: 16px 16px 0px 0px;
     gap: 20px;
+    width: 33%;
 
-    width: 100%;
-    height: auto;
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 
 }
 
-.pricepanel {
+.icon-arg {
+
+    background: #eaeaea;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+
+}
+
+#sectiontitle {
+
+    font-family: 'RobotoLight';
+    font-size: 1em;
+    text-align: center;
+    line-height: 20%;
+    margin-bottom: 10px;
+    color: #eaeaea;
+}
+
+#infos {
+    font-family: 'RobotoLight';
+    font-size: 1em;
+    text-align: center;
+    color: #999999;
+
+}
+
+#icon-arg-set {
+
+    height: 30px;
+    margin-top: 15px;
+
+
+}
+
+
+
+
+
+
+/* --- HomePage Panel 3  --- */
+
+
+#Panel3 {
+    width: 100%;
+    background-color: #202020;
+
+}
+
+#section4 {
+
     display: flex;
     flex-direction: column;
+
     align-items: center;
     align-content: center;
-    padding: 2vw 0px 2vw;
-    gap: 24px;
 
-    width: 100%;
     height: auto;
+    width: 60%;
 
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    text-align: center;
 
 }
 
-.info {
-    box-sizing: border-box;
+#bestreview {
+
+    padding-top: 2em;
+    margin-bottom: 1em;
+
+    font-family: 'RobotoRegular';
+    font-size: 2.5em;
+    line-height: 1.1em;
+
+
+    color: #eaeaea;
+
+}
+
+#bestreview-id {
+
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+
+    background-color: #eaeaea;
+    border-color: #eaeaea;
+
+
+    font-family: 'RobotoRegular';
+    font-size: 2em;
+    color: #202020;
+    line-height: 60px;
+    /*Doit correspondre a la valeur du height et du width*/
+}
+
+#bestreview-name {
+
+    width: auto;
+
+    font-family: 'RobotoLight';
+    font-size: 1em;
+    line-height: 1.5em;
+
+    color: #eaeaea;
+
+}
+
+#bestreview-date {
+
+    width: auto;
+    margin-bottom: 50px;
+
+    font-family: 'RobotoLight';
+    font-size: 1em;
+    line-height: 1.5em;
+
+    color: #999999;
+
+}
+
+
+
+
+
+
+
+
+/* -------- Footer -------- */
+
+
+
+
+
+/*--- NEWSLETTER --- */
+
+
+#footer-section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    background-color: #C1272D;
 
-    width: 90%;
-    height: 100%;
 
 
 }
 
-.price {
-    box-sizing: border-box;
+#newsletter {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#newsletter-section-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    width: 55vw;
+
+
+}
+
+#news-title {
+
+    font-family: 'RobotoRegular';
+    font-size: 1.2em;
+    color: #eaeaea;
+
+
+}
+
+#news-info {
+
+    font-family: 'RobotoThin';
+    font-size: 0.9em;
+    color: #eaeaea;
+
+
+}
+
+.newsletter-form-input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email {
+
+    width: 250px;
+    height: 20px;
     padding: 10px;
-    gap: 10px;
-
-    width: 90%;
-    height: 100%;
 
 
-}
+    /* design */
 
-.agebox {
+    background: #eaeaea;
 
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 0px;
 
-    width: 50%;
-    height: 15vw;
+    border-color: #eaeaea;
 
-    background-color: #e0e0e0;
-    border-radius: 8px;
-
-
-    text-align: center;
-    align-content: center;
-
-}
-
-.pricetext {
-
-    font-family: 'Roboto';
-    text-align: center;
-    align-content: center;
-    font-weight: 400;
-    font-size: 4vw;
-    line-height: 8vw;
-
+    /* text parameters */
+    font-family: "RobotoLight";
+    font-size: 0.9em;
     color: #202020;
 
 }
 
-.content {
+#submit-button {
+    width: 110px;
+    height: 42px;
 
-    text-align: center;
-    align-content: center;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 5vw;
+    background: #801a1d;
 
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 0px;
 
-    color: #202020;
+    font-family: "RobotoLight";
+    font-size: 1em;
+    color: #eaeaea;
 
 }
 
-.buttonzone {
+#submit-button:hover {
+    width: 110px;
+    height: 42px;
 
+    background: #151515;
+
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 0px;
+
+    font-family: "RobotoLight";
+    font-size: 1em;
+    color: #eaeaea;
+
+}
+
+input[type=text] {
+    text-align: right;
+}
+
+
+
+
+
+/*--- LEGALS LINKS --- */
+
+
+#footer-section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px 20px;
-    gap: 24px;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto 0;
 
-    width: auto;
-    height: auto;
+    background-color: #801a1d;
 
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
-.paragraphe3 {
+#footerlegal {
     display: flex;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 20px;
+    justify-content: space-between;
+    width: 80%;
 
+}
+
+.footerlinks {
 
     color: #ffffff;
-}
-}
+    font-family: "RobotoThin";
+    padding: 0px 30px 0px 0px;
+    font-size: 0.9em;
+    text-decoration: none;
 
-
-
-
-/* --- Footer  --- */
-@media screen and (min-width: 768px) {
-
-
-    .footer {
-
-        display: flex;
-        flex-direction: row;
-
-        justify-content: space-between;
-
-
-        flex-shrink: 0;
-        width: 100%;
-        height: 100px;
-        bottom: 0px;
-        padding-top: 10px;
-
-
-
-
-
-        background-color: #801a1d;
-    }
-
-    .footercredits {
-
-        color: #eaeaea;
-        font-family: "Roboto";
-
-        font-size: 80%;
-
-
-
-        text-decoration: none;
-
-
-    }
-
-    #linebar {
-
-        border-top: 1px solid white;
-        margin: 25px 50px 0px 50px;
-        line-height: 3;
-    }
-
-    .footerlinks {
-
-        color: #ffffff;
-        font-family: "Roboto";
-        padding: 0px 0px 0px 30px;
-        font-size: 80%;
-        text-decoration: none;
-
-        flex-grow: 1;
-    }
-
-    .footerlinksend {
-
-        color: #ffffff;
-        font-family: "Roboto";
-        padding: 0px 0px 0px 0px;
-        font-size: 80%;
-        text-decoration: none;
-        text-align: right;
-        align-items: left;
-    }
 }
 
-@media screen and (max-width: 768px) {
+#footercopyright-text {
 
+    color: #ffffff;
+    font-family: "RobotoThin";
+    padding: 0px 0px 0px 30px;
+    font-size: 0.9em;
+    text-decoration: none;
 
-    .footer {
-
-        display: flex;
-        flex-direction: column-reverse;
-
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-
-
-        flex-shrink: 0;
-        width: 100%;
-        height: 100px;
-        bottom: 0px;
-
-        background-color: #801a1d;
-    }
-
-    .footercredits {
-
-        color: #eaeaea;
-        font-family: "Roboto";
-
-        font-size: 80%;
-        align-content: center;
-
-        text-decoration: none;
-    }
-
-    #linebar {
-
-        border-top: 0px solid white;
-        margin: 0px 10px 0px 10px;
-        line-height: 3;
-    }
-
-    .footerlinks {
-
-        color: #ffffff;
-        font-family: "Roboto";
-        padding: 0px 30px 0px 30px;
-        font-size: 110%;
-
-        font-weight: 300;
-
-
-
-
-    }
-
-    .footerlinksend {
-
-        color: #ffffff;
-        font-family: "Roboto";
-        font-weight: 300;
-        padding: 0px 0px 0px 0px;
-        font-size: 80%;
-
-    }
 }
